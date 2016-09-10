@@ -10,9 +10,10 @@ import android.util.AttributeSet;
 import android.view.View;
 
 /**
- * Created by Administrator on 2016/1/8.
+ * 注意：！！~！！！！此类有错误，错误示范！！！！！！！ 不要在onDraw里new对象！！！！
+ * Created by Wing on 2016/1/8.
  */
-public class LoadingView extends View {
+public class SuccessView extends View {
     private int mWidth;
     private int mHeight;
     private Context mContext;
@@ -55,15 +56,15 @@ public class LoadingView extends View {
 
     private boolean isPathToLine = false;
 
-    public LoadingView(Context context) {
+    public SuccessView(Context context) {
         this(context, null);
     }
 
-    public LoadingView(Context context, AttributeSet attrs) {
+    public SuccessView(Context context, AttributeSet attrs) {
         this(context, attrs, 0);
     }
 
-    public LoadingView(Context context, AttributeSet attrs, int defStyleAttr) {
+    public SuccessView(Context context, AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
         mContext = context;
     }

@@ -3,7 +3,7 @@
     android:background="#1C9AF3"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-    <com.wingsofts.loadingview.LoadingView
+    <com.wingsofts.loadingview.SuccessView
         android:id="@+id/loadingView"
         android:layout_centerInParent="true"
         android:layout_width="100dp"
