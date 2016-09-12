@@ -5,7 +5,7 @@
 
 ## 效果1:loading
 
-博客讲解地址：待添加
+博客讲解地址：http://androidwing.net/index.php/73
   
 ![image](https://github.com/githubwing/LoadingView/raw/master/img/loadingview.gif)
 
